@@ -1,5 +1,5 @@
 file = open("input.txt","r").readlines()
-
+## this code is too long but do i care i was tired
 reports = [[int(j) for j in file[i].split()] for i in range(len(file))]
 
 def areyousurebro(report):
